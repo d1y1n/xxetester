@@ -9,7 +9,8 @@ The script parses the XML files on your system. Please be aware of this. DOS att
 
 How to use
 -------------------------------
-The script uses `lxml`. To install it you can execute the following command on your shell.
+The script uses `lxml`. Various libraries were tested. Various libraries were tested. Among others `pulldom` also stood out as an interesting choice, because external general entities can be processed optionally. Unfortunately, `pulldom` had difficulties with out-of-band payloads, therefore we switched to `lxml`. To install it you can execute the following command on your shell.
+
 ```
 # pip3 install lxml
 ```
@@ -66,4 +67,3 @@ Altough the script exits with an exception we see the following output on our we
 127.0.0.1 - - [05/Sep/2020 21:21:27] "GET /?collect=1337SECRET1337 HTTP/1.0" 200 -
 ```
 With the first request the `evil.dtd` file is accessed. In the second GET request, the collect argument contains the contents of the `/tmp/secret` file.
-
