@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ENTITY % ISOEntities PUBLIC 'ISO 8879-1986//ENTITIES ISO Character Entities 20030531//EN//XML' 'http://www.s1000d.org/S1000D_4-1/ent/ISOEntities'>
+%ISOEntities;]>
+<doc>
+    <test>Here's a test of minus: &minus;</test>
+</doc>

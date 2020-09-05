@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<!DOCTYPE r [
+<!ELEMENT r ANY >
+<!ENTITY sp SYSTEM "http://127.0.0.1:8090/test.txt">
+]>
+<r>&sp;</r>

